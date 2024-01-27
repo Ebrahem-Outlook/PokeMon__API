@@ -9,5 +9,7 @@ namespace PokeMon__API.Models
 
         [Required]
         public String? Name { get; set; }
+
+        public ICollection<Owner> Owners { get; set; }
     }
 }

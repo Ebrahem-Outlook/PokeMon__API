@@ -12,5 +12,7 @@ namespace PokeMon__API.Models
 
         [Required]
         public String? LastName { get; set; }
+
+        public ICollection<Review> Reviews { get; set; }
     }
 }

@@ -12,5 +12,6 @@ namespace PokeMon__API.Models
 
         [Required]
         public DateTime BirthDate { get; set; }
+        public ICollection<Review> Review { get; set; }
     }
 }

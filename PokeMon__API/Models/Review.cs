@@ -12,5 +12,8 @@ namespace PokeMon__API.Models
 
         [Required]
         public String? Text { get; set; }
+
+        public Reviewer Reviewer { get; set; }
+        public Pokemon Pokemon { get; set; }
     }
 }
